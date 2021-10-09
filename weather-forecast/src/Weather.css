@@ -1,0 +1,29 @@
+.weather{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather input{
+    width: 30%;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.weather div{
+    margin: 1.5rem;
+}
+
+.weather .result-display{
+    display: flex;
+}
+
+.weather .result-display .one-display{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color:rgb(210, 221, 252);
+    min-width: 6rem;
+}
